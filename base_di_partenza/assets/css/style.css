@@ -1,0 +1,35 @@
+*, *::before,*::after{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    cursor: pointer;
+}
+html{
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+}
+.container{
+    background-color: #ffc017;
+    margin: auto;
+}
+.navBar , .border{
+    border: 1px solid black;
+}
+
+header nav ul{
+    list-style: none; 
+    display: flex;
+    flex-direction: row-reverse;
+}
+header nav ul li{
+    padding: 0.5rem 0.8rem;
+}
+.center{
+    max-width: 70rem;
+    margin-inline: auto;
+}
+
