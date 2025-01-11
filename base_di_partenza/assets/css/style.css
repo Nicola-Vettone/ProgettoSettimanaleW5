@@ -42,4 +42,14 @@ header nav ul li{
     padding: 8px 13px;
     border-radius: 25px;
 }
+header h1{
+    font-family: "Spectral", serif;
+    font-size: 5rem;
+    font-weight: 500;
+    text-wrap: nowrap;
+}
+header h2{
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
 
