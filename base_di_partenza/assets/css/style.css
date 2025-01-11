@@ -78,3 +78,9 @@ header h2{
     display: flex;
     flex-wrap: wrap;
 }
+.article2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    margin: 10px;
+}
