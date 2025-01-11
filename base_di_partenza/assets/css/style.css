@@ -12,14 +12,15 @@ html{
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
 }
-
+.navBar{
+    padding: 25px;
+}
 .container{
     background-color: #ffc017;
     margin: auto;
 }
 .navBar , .border{
     border: 1px solid black;
-    padding: 25px;
 }
 
 header nav ul{
@@ -49,7 +50,21 @@ header h1{
     text-wrap: nowrap;
 }
 header h2{
-    margin-top: 1em;
-    margin-bottom: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1.3em;
 }
-
+.position{
+    min-width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.position button{
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    padding: 5px 25px;
+}
