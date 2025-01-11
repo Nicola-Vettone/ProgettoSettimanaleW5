@@ -67,6 +67,7 @@ header h2{
     background-color: black;
     color: white;
     padding: 5px 25px;
+    cursor: pointer;
 }
 .trending{
   display: flex;
@@ -77,10 +78,31 @@ header h2{
 .article{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .article2{
     display: flex;
     flex-wrap: wrap;
     width: 25%;
     margin: 10px;
+    
+}
+.article3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.article2 img{
+    width: 15px;
+    border-radius: 5px;
+}
+.article2 .radius{
+    border-radius: 50px;
+}
+.number{
+    padding-right: 0.5rem;
+    font-size: 2rem;
+    color: #E9E6E3;
+    font-weight: 900;
 }
