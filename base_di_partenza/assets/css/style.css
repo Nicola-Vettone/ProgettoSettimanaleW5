@@ -20,7 +20,7 @@ html{
     margin: auto;
 }
 .navBar , .border{
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 header nav ul{
@@ -70,10 +70,13 @@ header h2{
     cursor: pointer;
 }
 .trending{
-  display: flex;
-  align-items: center; 
-  gap: 10px;
-  margin-top: 3em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 3em;
+    margin-bottom: 0.8em;
+    font-weight: 800;
+    font-size: 10px;
 }
 .article{
     display: flex;
@@ -82,10 +85,10 @@ header h2{
 }
 .article2{
     display: flex;
-    flex-wrap: wrap;
-    width: 25%;
-    margin: 10px;
-    
+        flex-wrap: wrap;
+        width: 25%;
+        margin: 10px;
+        flex-direction: column;
 }
 .article3{
     display: flex;
@@ -94,7 +97,7 @@ header h2{
     
 }
 .article2 img{
-    width: 15px;
+    width: 17px;
     border-radius: 5px;
 }
 .article2 .radius{
@@ -105,4 +108,28 @@ header h2{
     font-size: 2rem;
     color: #E9E6E3;
     font-weight: 900;
+}
+.name {
+    display: flex;
+    align-items: center;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+.name p{
+    margin-left: 1em;
+}
+.title{
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.caption{
+    color: gray;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.name span{
+    color: grey;
 }
