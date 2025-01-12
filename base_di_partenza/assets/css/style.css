@@ -133,3 +133,46 @@ header h2{
 .name span{
     color: grey;
 }
+.mezzo{
+    width: 50%;
+    
+}
+.img{
+    width: 200px;
+    height: 10em;
+}
+.foto{
+    display: flex;
+    margin-bottom: 3em;
+    max-width: 80%;
+  gap: 17px;
+}
+.flexArticle{
+    display: flex;
+    flex-direction: row;
+}
+.radius img{
+    width: 21px;
+    border-radius: 50%;
+}
+.radius p{
+    font-size: 11px;
+}
+.starFlex{
+    display: flex;
+    margin-top: 19px;
+    justify-content: space-between;
+}
+.section{
+    margin-top: 5em;
+}
+.paragraph{
+    font-size: 0.9em;
+    color: gray;
+}
+.title2{
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
