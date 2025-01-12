@@ -25,6 +25,9 @@ html{
 .container{
     background-color: #ffc017;
     margin: auto;
+    position: relative;
+    width: 100%;
+
 }
 .border{
     border-bottom: 1px solid black;
@@ -222,6 +225,15 @@ footer ul{
     background-color: rgb(238, 238, 238);
     border-radius: 5px;
     padding: 3px 2px;
+}
+.svg {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.none{
+    opacity: 0;
 }
 /*Media Query*/
 @media screen and (max-width: 768px) {}
