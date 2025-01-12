@@ -218,6 +218,11 @@ footer ul{
 .scrolled .getStarted{
     background-color: green;
 }
+.caption span{
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    padding: 3px 2px;
+}
 /*Media Query*/
 @media screen and (max-width: 768px) {}
  
