@@ -176,3 +176,36 @@ header h2{
     margin-bottom: 1em;
     font-size: 1.3em;
 }
+aside{
+    width: 40%;
+}
+aside h3 {
+    font-weight: 900;
+    margin-top: 2rem;
+}
+aside ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    gap: 0.3em;
+}
+aside>ul li{
+    border: #F2F3F3 2px solid;
+    color: #757575;
+    padding: 0.5rem 0.5rem;
+    border-radius: 2px;
+    text-wrap: nowrap;
+}
+aside hr{
+    margin: 1em 0;
+}
+footer{
+    color: #757575;
+}
+footer ul{
+    gap: 1em;
+}
+/*Media Query*/
+@media screen and (max-width: 768px) {}
+ 
