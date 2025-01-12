@@ -7,3 +7,18 @@ addEventListener("scroll",(event) => {
         document.querySelector(".navBar").classList.remove("scrolled");
     }
 })
+
+let svg = document.querySelector('.svg svg');
+
+let array = [...svg.querySelectorAll('g[opacity="1"]:not(g[aria-label])')]
+function randomOpacity(){
+    let index = Math.floor(Math.random()*array.length)
+    let m = array[index]
+    
+    m.setAttribute('opacity', 0)
+    setTimeout(()=>{
+        m.setAttribute('opacity', 1)
+    }, 2000)
+}
+
+setInterval(randomOpacity, 200)
