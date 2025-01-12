@@ -12,14 +12,20 @@ html{
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
 }
-.navBar{
+.navBar {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
     padding: 25px;
 }
 .container{
     background-color: #ffc017;
     margin: auto;
 }
-.navBar , .border{
+.border{
     border-bottom: 1px solid black;
 }
 
